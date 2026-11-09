@@ -26,3 +26,6 @@ library:
     grace-period-days: 0
     daily-fine: 100.00
     max-fine: 5000.00
+
+spring.data.web.pageable:
+  max-page-size: 100
