@@ -16,3 +16,13 @@ spring:
 server:
   error:
     include-stacktrace: never
+
+library:
+  time-zone: Africa/Kigali
+  loans:
+    loan-days: 14
+    max-active-loans: 3
+    max-renewals: 1
+    grace-period-days: 0
+    daily-fine: 100.00
+    max-fine: 5000.00
