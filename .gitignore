@@ -5,14 +5,12 @@ target/
 # IDE
 .idea/
 *.iml
-.vscode/
 .settings/
 .project
 .classpath
 .factorypath
 
 # Local overrides and secrets
-.env
 application-local.yml
 
 # H2 file databases
@@ -20,3 +18,5 @@ application-local.yml
 *.trace.db
 
 .DS_Store
+config.bat
+node_modules
